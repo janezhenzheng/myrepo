@@ -5,6 +5,7 @@
 library(usethis)
 library(dplyr)
 library(readr)
+library(tidyverse)
 data <- installed.packages() %>% 
   as_tibble()
   
